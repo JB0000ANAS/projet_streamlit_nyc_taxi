@@ -19,19 +19,11 @@ Cette application Streamlit permet d'analyser et de visualiser les données de t
    streamlit run accueil.py
    ```
 
-## Déploiement sur Streamlit Cloud
-
-1. Poussez ce dépôt sur GitHub
-2. Connectez-vous à [Streamlit Cloud](https://streamlit.io/cloud)
-3. Cliquez sur "New app"
-4. Sélectionnez votre dépôt et la branche
-5. Spécifiez le fichier principal : `accueil.py`
-6. Cliquez sur "Deploy!"
-
 ## Structure du projet
 
 - `accueil.py` : Point d'entrée principal de l'application
 - `taxi_ml_predictions.py` : Module de prédictions ML
 - `nyc_zones_data.py` : Données des zones de New York
 - `requirements.txt` : Dépendances Python
-- `data/` : Dossier contenant les jeux de données (non versionné)
+- `data/` : nyc_taxi_sample.csv
+  
